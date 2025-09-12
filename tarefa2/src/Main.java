@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Random random = new Random();
         
-        // Criação das Fases (pelo menos 3)
+        // Criação das Fases 
         ArrayList<Fase> fases = ConstrutorDeCenario.gerarFases(3);
         
         // Criação do Herói

@@ -9,8 +9,8 @@ public class ConstrutorDeCenario {
     /**
      * Cria "n" fases de acordo com o parâmetro do método.
      * Retorna uma lista de Fases com dificuldade crescente (nível da fase).
-     * @param nFases número de fases a serem criadas
-     * @return lista de Fases com dificuldade crescente
+     * parâmetro: nFases número de fases a serem criadas
+     * retorna: lista de Fases com dificuldade crescente
      */
     public static ArrayList<Fase> gerarFases(int nFases) {
         ArrayList<Fase> fases = new ArrayList<Fase>();
